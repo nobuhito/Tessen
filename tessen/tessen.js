@@ -1,5 +1,5 @@
-var apiHost = "http://localhost";
-var apiPort = "4567";
+var sensuApiHost = "http://localhost";
+var sensuApiPort = "4567";
 var uchiwaHost = "http://localhost";
 var uchiwaPort = "3000";
 var datacenter = "sensu";
@@ -7,7 +7,7 @@ var datacenter = "sensu";
 function getEvents(callback) {
     $.ajax({
         dataType: 'json',
-        url: apiHost + ':' + apiPort + '/events',
+        url: sensuApiHost + ':' + sensuApiPort + '/events',
         success: function(data) {
             callback(data);
         }
