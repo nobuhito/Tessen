@@ -1,0 +1,28 @@
+#main {
+    margin-top: 15px;
+    width: 400px;
+}
+
+span.glyphicon {
+    margin: 5px;
+}
+
+.issued {
+    float: right;
+}
+
+.history_color_2 {
+    color: #b94a48;
+}
+
+.history_color_1 {
+    color: #f89406;
+}
+
+.history_color_0 {
+    color: #5cb85c;
+}
+
+#footer {
+    float: right;
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Tessen",
+    "version": "0.0.1",
+    "description": "Sensu monitor for chrome extension",
+    "icons": {
+        "48": "images/icon48.png",
+        "128": "images/icon128.png",
+        "32": "images/icon32.png",
+        "64": "images/icon64.png",
+        "19": "images/icon19.png"
+    },
+    "background": {
+        "scripts": [
+            "js/jquery.min.js",
+            "tessen/tessen.js",
+            "tessen/background.js"
+        ]
+    },
+    "browser_action": {
+      "default_icon": {
+        "19": "images/icon19.png",
+        "38": "images/icon38.png"
+      },
+      "defaut_title": "Tessen",
+      "default_popup": "tessen/popup.html"
+    },
+    "permissions": [
+        "http://*/"
+    ],
+    "manifest_version": 2
+}
